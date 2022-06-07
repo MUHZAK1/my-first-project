@@ -13,6 +13,13 @@
   padding: 5px;
   height: auto;
 }
+.clock-image img {
+  margin-top: 20px;
+}
+.containers {
+  width: 80%;
+  margin: 0 auto;
+}
 .container2 {
   width: 80%;
   display: flex;
@@ -208,6 +215,7 @@
   height: 35px;
   font-size: 15px;
   outline: none;
+  padding-top: 10px;
 }
 .word-section {
   width: 40%;
@@ -228,10 +236,30 @@
   background-color: orangered;
   padding: 3px 5px;
 }
+.process h1 {
+  width: 450px;
+}
+.flexer {
+  /* margin-bottom: 850px; */
+}
+.Flexed {
+  margin-bottom: 2050px;
+}
+.flexes {
+  /* margin-bottom: 850px; */
+}
+.sent-section {
+  height: 70vh;
+  margin: 0 auto;
+  padding-top: 10px;
+  
+}
+
+
 
 .page-container {
   width: 80%;
-  display: flex;
+   /* display: flex; */
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -253,15 +281,19 @@
 .process {
   font-size: 35px;
 }
+
+
 .yell-button {
   color: white;
   background: orangered;
   padding: 7px;
   margin-right: 80%;
+  margin-bottom: 900px;
 }
 .yell-button a {
   text-decoration: none;
   color: black;
+  
 }
 .flexer {
   display: flex;
@@ -379,6 +411,10 @@ image {
   margin: 0 auto;
   justify-content: space-around;
   flex: 1;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .grid-container {
@@ -553,6 +589,11 @@ image {
 .plus {
   font-size: 40px;
 }
+.open {
+  padding-top: 35px;
+  padding-left: 5px;
+  padding-right: 30px;
+}
 
 .lorem {
   display: flex;
@@ -561,3 +602,294 @@ image {
   background-color: black;
   color: #ffffff;
 }
+ @media(max-width: 768px) {
+.container {
+width: 90%;
+margin: 0 auto;
+}
+.open {
+  padding-top: 35px;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+
+.process h1 {
+  padding-top: 40px;
+  padding-bottom: 140px;
+  width:300px
+}
+
+   .yello-button {
+    color: white;
+    background-color: orangered;
+    padding: 20px;
+    font-size: 50px;
+}
+.faq-box .answer-section {
+  padding: 5px 20px 20px 20px;
+  padding-top: 10px;
+}
+ .containers {
+
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-right: 0px;
+} 
+
+  #faq-section .faq-main-box .faq-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    width: 550px;
+    padding-right: 20px;
+    align-self: center;
+  }
+
+.faq-box .answer-section .answer-box {
+  width: 100%;
+}
+
+.process p {
+  margin-bottom: 50%;
+}
+
+.vehicle h1 {
+  padding-right: 10px;
+}
+.about {
+ width: 50%;
+}
+#page-holder {
+  height: 80%;
+  padding: 80px 0; 
+  background-color: rgb(235, 230, 230);
+  display: flex;
+  width: 100%;
+}
+.service-taking h1 {
+  padding-right: 20px;
+width: 420px;
+font-size: 35px;
+} 
+
+
+
+
+
+ 
+  
+}
+@media(max-width: 425px) {
+ .container {
+   flex-direction: column-reverse;
+  
+ }
+ .sent-section {
+  height: 75vh;
+  margin: 0 auto; 
+ }
+ .prof {
+   margin-right: 25px;
+   margin-bottom: 160px;
+ }
+ .containers {
+   width: 570px;
+   
+ }
+ .last-item {
+   width: 1000px;
+ }
+ #last {
+   width: 1000px;
+ }
+ .faq-main-box {
+   padding-right: 750px;
+   align-items: center;
+ }
+ #faq-section {
+  background: #e2e6e9;
+  min-height: 100vh;
+ 
+  width: 890px;
+  margin: 0 auto;
+  
+ 
+}
+.faq-box {
+  padding-right: 160px;
+  
+}
+ #testimony {
+   width: 870px;
+ }
+ #tools-section {
+   width: 1000px;
+ }
+ .color {
+   width: 870px;
+ }
+ #logo-word {
+   width: 1000px;
+ }
+ .offers-section .contained {
+  width: 100%; 
+ }
+ .offers-section {
+   width: 830PX;
+   Margin-top: 150PX;
+ }
+ .circle-section {
+   padding-top: 50px;
+   padding-bottom: 150px;
+ }
+ .Flexed p {
+   font-size: 20px;
+ }
+ .Flexed {
+  width: 400px;
+  font-size: 30px;
+ }
+ .flexes h2 {
+  width: 800px;
+  font-size: 40px; 
+ }
+ .flexer h2  {
+   width: 800px;
+   font-size: 40px;
+ }
+ #page-holder {
+   width: 820px;
+   flex-direction: column;
+ }
+ .flex .convenient {
+   padding-right: 100px;
+   padding-bottom: 20px;
+   font-size: 20px;
+ }
+ .form input {
+   width: 350px;
+    
+   margin-top: 20px;
+ }
+ .page-container {
+   flex-direction: column;
+   height: 220vh;
+   margin: 0 auto;
+
+
+ }
+ .process h1 {
+   width: 450px;
+ }
+ .page-container {
+ width: 1000;  
+ }
+ .sent-section p {
+   width: 450px;
+   font-size: 30px;
+   margin-bottom: 80px;
+   padding-bottom: 250px;
+ }
+ .yell-button  {
+   padding:20px 70px 20px 50px;
+   display: none;
+   
+ }
+ .yell-button a {
+   width: 150px;
+   font-size: 20px;
+   margin-bottom: 40%;
+ }
+ .arrow {
+padding-right: 200px;
+ }
+ .form-section {
+   margin-top: 50px;
+ }
+ .form-section h1 {
+   font-size: 40px;
+   width: 350px;
+ }
+
+
+ 
+.service-taking h1 {
+  margin-right: 100px;
+  
+padding-right: 40px;
+} 
+.image-section img {
+  width: 600px;
+  margin-bottom: 120px;
+} 
+ .right-section ul li {
+  margin-right: 150px;
+}
+ .open h5 {
+  width: 400px;
+  font-size: 20px;
+  padding-top: 20px;
+
+ }
+ .open p {
+   padding-top: 20px;
+ }
+ .clock img {
+   padding-bottom: 20px;
+ }
+ .vehicle h1 {
+   width: 450px;
+   padding-bottom: 50px;
+ }
+
+
+
+.vehicle h1 {
+  font-size: 40px;
+padding-right: 30px;
+padding-bottom: 30px;
+}
+.image-section img {
+  padding-right: 25px;
+}
+   .road-assistance {
+display: none;
+  } 
+ 
+}  
+
+.about a {
+  text-decoration: none;
+  color: black;
+}
+.about {
+  width: 30%;
+}
+
+ 
+ .container {
+   width: 80%;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   padding: 5px;
+   height: auto;
+ }.container2 {
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  height: auto;
+ }
+
+
+
+
+
+
+
+  
