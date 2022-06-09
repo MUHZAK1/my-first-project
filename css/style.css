@@ -248,14 +248,41 @@
 .flexes {
   /* margin-bottom: 850px; */
 }
-.sent-section {
+/* .sent-section {
   height: 70vh;
   margin: 0 auto;
   padding-top: 10px;
   
+} */
+
+.pager {
+display: flex;
+justify-content: space-between;
+height: 100vh;
+  width: 80%; 
+margin: 0 auto;
+
+margin-top: 70px;
+margin-bottom: 70px;
+
+
+
 }
+.bink {
+background-color: #ffffff;
+}
+.prox {
+  font-size: 15px;
+margin-top: 30px;
+}
+.processes {
+  font-size: 35px;
+width: 400px;
+} 
 
-
+.circle-side {
+  
+}
 
 .page-container {
   width: 80%;
@@ -289,10 +316,12 @@
   padding: 7px;
   margin-right: 80%;
   margin-bottom: 900px;
+margin-top: 40px;
 }
 .yell-button a {
   text-decoration: none;
   color: black;
+
   
 }
 .flexer {
@@ -562,6 +591,37 @@ image {
 
   padding: 30px;
 }
+.flexnon {
+  padding:0 50px 0 0;
+  margin-top: 50px; 
+}
+.whatsapp{
+  margin-top: 60px;
+} 
+
+.fort {
+  background-color: rgb(247, 240, 240);
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.forty {
+width: 80%;
+min-height: 100vh;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+
+}
+.sent {
+  padding: 55px 0px 30px 55px;
+ font-size: 20px;
+}
+.sent p {
+ margin-top: 15px;
+}
+
+
 .jonathan {
   padding-left: 10px;
 }
@@ -607,6 +667,173 @@ image {
  margin: 0 auto;
  
 }
+
+
+.pro-sect {
+  width:80% ;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 100vh;
+  
+}
+.prob {
+ background-color: black;
+ color: #ffffff;
+ padding: 30px;
+ margin-bottom: 35px;
+ margin-top: 8px; 
+}
+.pic {
+  background-image: url(../images/Header\ Image\ \(7\).png);
+  
+  background-repeat: no-repeat;
+}
+.pic img {
+  width: 100%;
+  visibility: hidden;
+}
+.problem p  {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#thed {
+ background-color: rgb(233, 225, 225);
+}
+
+
+
+
+  .thirdy {
+  width: 80%;
+   display: flex;
+ justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  
+}
+.offers-side .offers .offer-box {
+   background: white; 
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 12px;
+ 
+}
+.offers .offer-box,
+image {
+  padding: 40px;
+}
+.offers {
+   /* display: flex; */
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.offers-side .offers .offer-box:hover {
+  background-color: #ff6433;
+   color: white; 
+}
+.off-section .offers .offer-box {
+  background: white;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 12px;
+ 
+}
+.offers .offer-box,
+image {
+  padding: 40px;
+}
+.offers {
+  /* display: flex; */
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.off-side .offers .offer-box:hover {
+  background-color: #ff6433;
+  color: white;
+}
+ #thed .thirdy .page-boxes{
+   background: white; 
+  
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   width: 40%; 
+  margin-bottom: 12px;
+  padding: 10px;
+ 
+}
+.page-boxes img {
+  height: 294px;
+  width: 90%;
+  left: 231px;
+  top: 1054px;
+  border-radius: 0px;
+
+} 
+.third-section {
+  width: 80%;
+  margin: 0 auto; 
+  display: flex;
+  height: 80vh; 
+  }
+  .wordy h1 {
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 700;
+    
+  
+  
+  }
+   /* .img-one img {
+    height: 477px;
+    width: 304px;
+    left: 976px;
+    top: 1992px;
+    border-radius: 0px;
+  }  */
+  .flex {
+    padding:0 50px 0 0;
+    
+  }
+  .whatsapp h5 {
+    margin-left: 10px;
+    
+  } 
+  .whatsapp {
+    display: flex;
+  }
+  .whatsapp img {
+    height: 17.5px;
+    width: 24.5px;
+    left: 332px;
+    top: 2188px;
+    border-radius: 50px;
+     
+  }
+
+
  @media(max-width: 768px) {
 .container {
 width: 90%;
@@ -700,6 +927,15 @@ font-size: 35px;
    flex-direction: column-reverse;
   
  }
+.pager {
+  flex-direction: column;
+  margin-left: 150px;
+
+  
+}
+.circle-side {
+  display: none;
+}
  .pro {
    display: none;
  }
@@ -811,7 +1047,7 @@ font-size: 35px;
  }
  .yell-button  {
    padding:20px 70px 20px 50px;
-   display: none;
+   /* display: none; */
    
  }
  .yell-button a {
