@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+.rang-button a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  background-color: black
+} 
 
 .container {
   width: 80%;
